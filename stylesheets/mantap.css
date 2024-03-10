@@ -22,13 +22,13 @@
  
  @font-face {
    font-family: "lucida-grande";
-   font-weight: 100;
+   font-weight: 200;
    src: url('/fonts/LUCIDAG.TTF') format('truetype');
  }
  
  p{
   font-family: "lucida-grande" ;
-  font-weight: 100;
+  font-weight: 200;
  }
 
 .toggle-button {
