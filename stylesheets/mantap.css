@@ -1,18 +1,23 @@
 .sidebar {
   transition: margin-left 0.5s; 
 }
-
-  .content {
-    transition: margin-left 0.5s;
-  }
   
-  .sidebar.hidden {
+.sidebar.hidden {
     margin-left: -200px; 
   }
   
-  .content.expanded {
-    margin-left: 200px;
-  }
+#mainContent {
+  transition: margin-left 0.5s;
+}
+
+#mainContent.hidden {
+  margin-left: 0; /* Adjusted margin to match your HTML structure */
+}
+
+#mainContent.expanded {
+  margin-left: 200px;
+}
+
 
 /*font*/
 
@@ -175,4 +180,8 @@ li{
   border: 0;
   font: inherit;
   vertical-align: baseline
+}
+
+html{
+  scroll-behavior: smooth;
 }

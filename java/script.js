@@ -1,11 +1,3 @@
-// Function to toggle sidebar visibility
-function toggleSidebar() {
-    var sidebar = document.getElementById("sidebar");
-    var content = document.getElementById("content");
-    sidebar.classList.toggle("expanded");
-    content.classList.toggle("hidden");
-  }
-
 // function to switch between tabs
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
@@ -32,4 +24,18 @@ function toggleSidebar() {
   button.classList.toggle('hidden');
 }
 
-  
+document.addEventListener('DOMContentLoaded', function() {
+  // hidesidebar fujntions
+  function hideSidebar() {
+    var sidebar = document.querySelector('.sidebar');
+    var mainContent = document.getElementById('mainContent');
+    var button = document.querySelector('.toggle-button');
+    
+    sidebar.classList.add('hidden');
+    mainContent.style.marginLeft = '0';
+    button.classList.add('hidden');
+  }
+
+  // call hideside bar
+  hideSidebar();
+});
