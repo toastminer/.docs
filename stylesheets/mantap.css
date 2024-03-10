@@ -25,11 +25,23 @@
    font-weight: 100;
    src: url('/fonts/LUCIDAG.TTF') format('truetype');
  }
+
+ @font-face {
+  font-family:monospace;
+  src: url(/fonts/ubuntu/ubuntumono.ttf) format(truetype);
+
+ }
  
+
  p{
   font-family: "lucida-grande" ;
   font-weight: 100;
  }
+
+.mono {
+  font-family: monospace;
+  font-size:x-large;
+}
 
 .toggle-button {
   position: fixed;
@@ -41,7 +53,6 @@
 /* arrow image style */
 .toggle-button img {
   transition: transform 0.3s ease; 
-  filter: invert(1);
 }
 
 /* rotat arrow when sidebar hide */
