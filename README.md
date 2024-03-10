@@ -1,0 +1,2 @@
+Fadhlan's Fabulous Faithfully Frivolous HTML Docs: Colors, Styles, Tags and Shapes Spun by Stalwart CSS Sages Backed by Github's Free [RAID 0 Servers Runnning on Samsung Smart Fridge™
+](https://www.reddit.com/r/mildlyinfuriating/comments/192pkll/comment/kh46qfa)
