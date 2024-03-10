@@ -22,13 +22,13 @@
  
  @font-face {
    font-family: "lucida-grande";
-   font-weight: 200;
+   font-weight: 100;
    src: url('/fonts/LUCIDAG.TTF') format('truetype');
  }
  
  p{
   font-family: "lucida-grande" ;
-  font-weight: 200;
+  font-weight: 100;
  }
 
 .toggle-button {
@@ -74,10 +74,6 @@ body {
 .scroll-container {
   height: 75px; /* container height */
   background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(to top, #373737, #212121);
   width: 100%;
   position: fixed;
