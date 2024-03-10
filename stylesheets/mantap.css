@@ -41,16 +41,11 @@
 .mono {
   font-family: monospace;
   font-size:x-large;
+  text-decoration: none;
+  color: rgb(90, 131, 208);
 }
 
-.toggle-button {
-  position: fixed;
-  top: 90%;
-  left: 35%;
-  z-index: 2;
-}
-
-/* arrow image style */
+/* arrow button image style */
 .toggle-button img {
   transition: transform 0.3s ease; 
 }
@@ -68,7 +63,12 @@
   margin-left: -32%;
 }
 
-
+.toggle-button {
+  position: fixed;
+  top: 90%;
+  left: 35%;
+  z-index: 2;
+}
 
 /* main content style */
 body {
@@ -130,7 +130,6 @@ body {
   width: 200px; 
   position: fixed;
   top: 40px; 
-  left: 0;
   background-color: #333;
   padding-top: 20px;
   background: linear-gradient(to bottom, #373737, #212121);
@@ -161,3 +160,19 @@ body {
   display: block;
 }
 
+
+/*unordered list (I RIPPED THIS OFF SLATE THEME)*/
+ul {
+  list-style-position: inside;
+  list-style: disc;
+  padding-left: 20px
+}
+
+
+li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline
+}

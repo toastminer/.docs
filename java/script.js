@@ -2,8 +2,8 @@
 function toggleSidebar() {
     var sidebar = document.getElementById("sidebar");
     var content = document.getElementById("content");
-    sidebar.classList.toggle("hidden");
-    content.classList.toggle("expanded");
+    sidebar.classList.toggle("expanded");
+    content.classList.toggle("hidden");
   }
 
 // function to switch between tabs
